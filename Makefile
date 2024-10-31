@@ -1,8 +1,8 @@
-sources=$(filter-out src/header.html footer.html $(wildcard src/*.html))
+sources=$(filter-out src/header.html src/footer.html, $(wildcard src/*.html))
 
 .PHONY=all
 
-all: $(sources:%.html=src/%.html)
+all: $(sources:src/%.html=%.html)
 
 %.html: src/header.html src/%.html src/footer.html
-    cat $| > $@
+	cat $+ > $@
