@@ -13,7 +13,7 @@ Features:
     heading (h2), a paragraph of text and two article elements. Each should
     have filler text - at least 2 paragraphs each. One should have an image
     (use lorempixel.com)
-  - [ ] An aside element, containing a heading (h2) and an unordered list of
+  - [X] An aside element, containing a heading (h2) and an unordered list of
     nations, each list item containing an ordered list of the nation’s three
     biggest cities.
   - [ ] A footer element, containing a copyright symbol and your name.
