@@ -9,7 +9,7 @@ Features:
   - [X] A header element containing a heading (h1) with the page name. It
     should also have a nav element with an unordered list of at least 3
     links.
-  - [ ] A container element for the main content of the page, containing a
+  - [X] A container element for the main content of the page, containing a
     heading (h2), a paragraph of text and two article elements. Each should
     have filler text - at least 2 paragraphs each. One should have an image
     (use lorempixel.com)
