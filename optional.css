@@ -1,0 +1,9 @@
+/*
+- The second paragraph of the first article element should be written in
+  bold text, with a blue text colour.
+*/
+
+article:first-of-type p:nth-of-type(2) {
+    font-weight: bold;
+    color: blue;
+}
