@@ -1,12 +1,24 @@
+/* Global */
+
 body {
     width: 1024px;
     margin: auto;
     font-family: sans-serif;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas:
+        "header header"
+        "main aside "
+        "footer footer";
 }
+
+/* Top Bar */
 
 header {
     background-color: #ea700d;
     width: 100%;
+    grid-area: header;
+}
 
 h1 {
     width: fit-content;
@@ -27,21 +39,30 @@ nav li {
     margin: 15px;
 }
 
+/* Main content */
+
 main {
     background-color: #ffd965;
-}
-
-aside {
-    background-color: #c4d6a0;
-    float: right;
-}
-
-footer {
-    background-color: #7030a0;
-    width: 100%;
+    grid-area: main;
 }
 
 article {
     background-color: #dde2cd;
     width: 50%;
+}
+
+/* Aside */
+
+aside {
+    background-color: #c4d6a0;
+    float: right;
+    grid-area: aside;
+}
+
+/* Footer */
+
+footer {
+    background-color: #7030a0;
+    width: 100%;
+    grid-area: footer;
 }
