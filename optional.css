@@ -7,3 +7,16 @@ article:first-of-type p:nth-of-type(2) {
     font-weight: bold;
     color: blue;
 }
+
+/*
+- In the unordered list in the side content, items should appear in
+  alternating colours (green and red, as a suggestion).
+*/
+
+aside ul > li:nth-child(even) {
+    color: red;
+}
+
+aside ul > li:nth-child(odd) {
+    color: green;
+}
