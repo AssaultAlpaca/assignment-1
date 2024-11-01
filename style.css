@@ -3,3 +3,40 @@ body {
     margin: auto;
     font-family: sans-serif;
 }
+
+header {
+    background-color: #ea700d;
+    width: 100%;
+}
+
+nav {
+    background-color: #31859b;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav > ul > li {
+    float: left;
+    display: inline-block;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+main {
+    background-color: #ffd965;
+}
+
+aside {
+    background-color: #c4d6a0;
+    float: right;
+}
+
+footer {
+    background-color: #7030a0;
+    width: 100%;
+}
+
+article {
+    background-color: #dde2cd;
+    width: 50%;
+}
