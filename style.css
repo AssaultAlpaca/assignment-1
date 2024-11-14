@@ -26,17 +26,27 @@ h1 {
     margin: 0px;
 }
 
+/* Nav */
+
 nav {
     background-color: #31859b;
-    list-style-type: none;
-    width: fit-content;
     display: inline-block;
-    height: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
 }
 
 nav li {
     display: inline-block;
-    margin: 15px;
+    float: left;
+}
+
+nav a {
+    padding: 15px;
+    display: block;
 }
 
 /* Main content */
