@@ -55,6 +55,10 @@ article {
     background-color: #dde2cd;
 }
 
+article img {
+    float: right;
+}
+
 /* Aside */
 
 aside {
