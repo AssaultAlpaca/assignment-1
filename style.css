@@ -44,12 +44,11 @@ nav li {
 main {
     background-color: #ffd965;
     grid-area: main;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
 }
 
-main > h2, main > p {
-    grid-column: span 2;
+#articles {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 article {
