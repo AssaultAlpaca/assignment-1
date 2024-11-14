@@ -22,8 +22,9 @@ header {
 
 h1 {
     width: fit-content;
-    display: inline-block;
+    float: left;
     margin: 0px;
+    padding: 8px;
 }
 
 /* Nav */
@@ -37,15 +38,11 @@ nav ul {
     list-style-type: none;
     padding: 0px;
     margin: 0px;
-}
-
-nav li {
-    display: inline-block;
-    float: left;
+    display: flex;
 }
 
 nav a {
-    padding: 15px;
+    padding: 20px;
     display: block;
 }
 
